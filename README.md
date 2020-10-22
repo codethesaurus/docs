@@ -18,7 +18,7 @@ The brain behind this is [Sarah Withee](https://twitter.com/geekygirlsarah), a p
 
 ## How does this work?
 
-Feel free to see the Architecture section, but the goal will be to have a website that can look into language meta files, pull out the information the user is looking for, and match up structures side-by-side. 
+Feel free to see the [Architecture](project_architecture.md) section, but the goal will be to have a website that can look into language meta files, pull out the information the user is looking for, and match up structures side-by-side. 
 
 ## How can I help?
 
