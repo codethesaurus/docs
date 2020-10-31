@@ -1,11 +1,25 @@
 site_name: Code Thesaurus Documentation
+
 theme:
-  name: yeti
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - python
-  nav_style: primary
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+  font: false
+  language: en
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/codethesaurus
+repo_url: https://github.com/codethesaurus/docs
+repo_name: codethesaurus/docs
+edit_uri: edit/master/docs/
+plugins:
+  - git-revision-date
+
 nav:
-  - Home: index.md
-  - Architecture: project_architecture
+- Home: index.md
+- Architecture: project_architecture
