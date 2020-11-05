@@ -22,4 +22,7 @@ plugins:
 
 nav:
 - Home: index.md
-- Architecture: project_architecture
+- Overview: overview.md
+- Website: website/index.md
+- Thesaurus Files: thesaurus/index.md
+- FAQs: faq/index.md
