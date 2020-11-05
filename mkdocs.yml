@@ -1,0 +1,28 @@
+site_name: Code Thesaurus Documentation
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+  font: false
+  language: en
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/codethesaurus
+repo_url: https://github.com/codethesaurus/docs
+repo_name: codethesaurus/docs
+edit_uri: edit/master/docs/
+plugins:
+  - git-revision-date
+
+nav:
+- Home: index.md
+- Overview: overview.md
+- Website: website/index.md
+- Thesaurus Files: thesaurus/index.md
+- FAQs: faq/index.md
