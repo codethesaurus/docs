@@ -89,3 +89,4 @@ As you write up your pull request, please be specific about the changes you have
 The maintainers will review your PR and probably make constructive suggestions. This is not a reflection on your development skills but rather just to ensure compatibility with other languages or other parts of the system. You may need to make additional changes based on that feedback. But similarly you may also have ideas or your own considerations on how you did things, so you should share those in the PR or in comments too! It should be a team effort.
 
 Then finally, the maintainers can merge in your changes. And then congrats! You are now a part of Code Thesaurus history!
+
