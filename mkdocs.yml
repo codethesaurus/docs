@@ -23,6 +23,11 @@ plugins:
 nav:
 - Home: index.md
 - Overview: overview.md
+- Contributing: contributing.md
+- Installation/Running Locally: install.md
 - Website: website/index.md
 - Thesaurus Files: thesaurus/index.md
+- Project Architecture: project_architecture.md
 - FAQs: faq/index.md
+- Code of Conduct: CODE_OF_CONDUCT.md
+- Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
