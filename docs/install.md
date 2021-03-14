@@ -13,6 +13,17 @@ If you want, you can run and develop the application within docker container. To
 1. You can attach to the container by running docker attach codethesaurus-container - after you attach, you have to stop the development server by CTRL+C key combination. After that, you have access to the command line interface inside the container, where you can invoke django managment commands.
 1. To edit the respository, do it in your local directory on your machine - the changes that you make will be reflected in the container, thanks to the mounting of the filesystem, which was specified by -v `pwd`:/code option during docker run ... command execution.
 
+## Manual Install Requirements
+
+* Python 3.x
+* Django 3.11
+* PostgreSQL 13.x
+
+If you run `python --version` and it shows Python 2.x but you know you have
+Python 3.x installed, you may need to suffix all `python` and `pip` commands
+with `3`, e.g. `pip3` and `python3`, or follow the process for making Python
+3 your default Python installation.
+
 ## Manual Install - Windows
 
 1. Clone the project (git clone https://github.com/codethesaurus/codethesaur.us.git)
