@@ -14,9 +14,9 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/codethesaurus
-repo_url: https://github.com/codethesaurus/docs
+repo_url: https://github.com/codethesaurus/docs/
 repo_name: codethesaurus/docs
-edit_uri: edit/master/docs/
+# edit_uri: edit/master/docs/
 plugins:
   - git-revision-date
 
