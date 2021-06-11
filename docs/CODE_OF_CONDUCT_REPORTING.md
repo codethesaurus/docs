@@ -1,6 +1,6 @@
 ## Code Thesaurus Code of Conduct - Reporting Guide
 
-If you believe someone is violating the code of conduct we ask that you report it to the Code Thesaurus Team by emailing [conduct@codethesaur.us](conduct@codethesaur.us). All reports will be kept confidential. In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
+If you believe someone is violating the code of conduct we ask that you report it to the Code Thesaurus Team by emailing [conduct@codethesaur.us](mailto:conduct@codethesaur.us). All reports will be kept confidential. In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
 If you believe anyone is in physical danger, please notify appropriate law enforcement first. If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
@@ -46,4 +46,4 @@ Finally, the Working Group will make a report on the situation to the Code Thesa
 
 ## Reconsideration
 
-Any of the parties directly involved or affected can request reconsideration of the committee’s decision. To make such a request, contact the Core Team at conduct@codethesaur.us with your request and motivation and the Core Team will review the case.
+Any of the parties directly involved or affected can request reconsideration of the committee’s decision. To make such a request, contact the Core Team at [conduct@codethesaur.us](mailto:conduct@codethesaur.us) with your request and motivation and the Core Team will review the case.
