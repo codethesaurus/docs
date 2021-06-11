@@ -1,28 +1,39 @@
 # Thesaurus Files
 
-The thesaurus files are the core data elements behind Code Thesaurus. They include all of the information that is aggregated together to show the user as they go to compare things.
+The thesaurus files are the core data elements behind Code Thesaurus. They include all the information that is aggregated together to show the user as they go to compare things.
 
-There may be a new language you would like to see on the site or maybe there's incomplete parts to the language. This page hopes to address how to contribute both either or both of those.
+There might be a new language you would like to see on the site or there might be incomplete parts to a language. This page hopes to address how to contribute both either or both of those.
 
-## Adding a New Language Concept
+## Terminology
 
-If the language you are looking at is missing a feature to it, you are welcome to go in and add it! The features are stored in files within the `web/thesauruses/` and then the language directory below that. The concept files are within that directory.
+We are working towards using standard terminology across the site:
 
-You can open that concept file and add or edit any language features you find that aren't implemented or implemented incorrectly.
+* Structure - a broad category of things you can generally do in programming languages. These are like arrays, functions, classes, etc. These are in the dropdown lists on the home page.
+* Concepts - these are specific things you can do in a language. This would be like create an array, sort an array, grow/shrink an array, etc. These are in the tables on the Compare or Cheat Sheet pages.
+* Categories - These are concepts bundled into smaller groups. For example, on the data types page you would have categories like numerical data types, string and character data types, complex number types, etc.
+* Features - Deprecated. It was used interchangably with structures and concepts.
 
-The ID names for each of the features is consistent across all the languages in order to help match up the features with each other. The ID has to stay the same, but the other data doesn't have to (and maybe shouldn't).
+There might be old references, both in code and in documentation, that interchangably uses "structures" and "concepts". We're working to remove these. If you find one that's wrong, vague, or ambiguous, please let us know. You're welcome to update the [docs on Github](https://github.com/codethesaurus/docs) too!
 
-If the language doesn't have that concept file yet, you should copy it over from the `_meta` directory, then customize to fit the language you are working on.
+## Adding New Structures to Code Thesaurus
+
+If the language you are looking at is missing a structure to it, you are welcome to go in and add it! The structures are stored in files within the `web/thesauruses/` and then the language directory below that. The structure files are within that directory.
+
+You can open that structure file and add or edit any language features you find that aren't implemented or implemented incorrectly.
+
+The ID names for each of the concepts is consistent across all the languages in order to help match up the concepts with each other. The ID has to stay the same, but the other data doesn't have to (and maybe shouldn't).
+
+If the language doesn't have that structure file yet, you should copy it over from the `_meta` directory, then customize to fit the language you are working on.
 
 If you have any questions about it, you are welcome to ask through:
 
-Preferred: Reach out on Twitter [@codethesaurus](https://twitter.com/codethesaurus)
+Preferred: Reach out on Twitter [@codethesaurus](https://twitter.com/codethesaurus) or add a comment to a [new or existing issue](https://github.com/codethesaurus/codethesaur.us/issues).
 
 You could also email the core team (coreteam@codethesaur.us).
 
-## Add on a New Concept
+## Add an Existing Structure Set to a Language
 
-If a concept (like string manipulation, arrays, functions, etc.) doesn't exist with a language yet, make sure the concept file exists in the `web/thesauruses/_meta` directory first. See the above section on how to copy over a concept if it does.
+If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the above section on how to copy over a concept if it does.
 
 If it needs to be added, then you will need to follow these steps.
 
@@ -62,11 +73,10 @@ Within the `web/thesauruses/_meta` directory, create the new file you just named
 Within this file you will need to edit the following items to make the file work:
 
 * Leave the meta info alone (since it's a meta data file anyway)
-* Edit the `"categories"` (but not the word "categories") to reflect the concept you are adding and as many ways as you can think of to show examples of how that concept is implemented in any hypothetical programming language. Don't worry if you can't think of them all, as more languages are added, people will add to this file.
-* Under `"categories"`, you will implment the basic structure for the JSON file to have those implementations. So the section will be the name of the concept ID you created in `meta_info.json`, then the sections within that will match the `categories` section exactaly. You can look at some other meta files for how this looks.
+* Edit the `"categories"` section (but not the word "categories") to reflect the concept you are adding and as many ways as you can think of to show examples of how that concept is implemented in any hypothetical programming language. Don't worry if you can't think of them all, as more languages are added, people will add to this file.
+* Under `"categories"`, you will implement the basic structure for the JSON file to have those implementations. So the section will be the name of the concept ID you created in `meta_info.json`, then the sections within that will match the `categories` section exactly. You can look at some other meta files for how this looks.
 
-If you are adding a concept, please make a pull request for this _seperately_ from a language's implemention of this. This is to make sure the file can be reviewed first before languages try to implement the changes first. 
-
+If you are adding a concept to all of Code Thesaurus, please make a pull request for this _separately_ from a language's implementation of this. This is to make sure the file can be reviewed first before languages try to implement the changes first. 
 
 ## Add on a New Language
 
@@ -76,17 +86,16 @@ First, you will need to open up `web/thesauruses/meta_info.json`. Within that fi
 
 After you save that file, go make a new subdirectory with same name in `web/thesauruses/`. From there, copy one or more of the files in `web/thesauruses/_meta` into the language subdirectory. From there you should be good to implement those features in that concept file!
 
-## Contributing your changes
+## Contributing Your Changes
 
 First, thank you for offering to help with Code Thesaurus! The maintainers are very appreciative of this work you are doing!
 
-Second, create a pull request (PR) with your changes. Any meta langauge information should be made in separate PRs from language implementation changes.
+Second, create a pull request (PR) with your changes. Any meta language information should be made in separate PRs from language implementation changes.
 
-Third, make a pull request against Code Thesaurus's main branch. (Your branch may be named whatever.)
+Third, make a pull request against Code Thesaurus's main branch. (Your branch can be named whatever you like.)
 
-As you write up your pull request, please be specific about the changes you have made. Make sure the PR has a good title and in the description it talks about the changes that were made and the expected results of the changes. This is to ensure it can be tested properly by the maintainers.
+As you write up your pull request, please be specific about the changes you have made. The provided PR template should help. Make sure the PR has a good title and in the description it talks about the changes that were made and the expected results of the changes. This is to ensure it can be tested properly by the maintainers.
 
-The maintainers will review your PR and probably make constructive suggestions. This is not a reflection on your development skills but rather just to ensure compatibility with other languages or other parts of the system. You may need to make additional changes based on that feedback. But similarly you may also have ideas or your own considerations on how you did things, so you should share those in the PR or in comments too! It should be a team effort.
+The maintainers will review your PR and probably make constructive suggestions. This is not a reflection on your development skills but rather just to ensure compatibility with other languages or other parts of the system. You may need to make additional changes based on that feedback. But similarly you may also have ideas or your own considerations on how you did things, so you should share those in the PR or in comments too! It's a group effort!
 
-Then finally, the maintainers can merge in your changes. And then congrats! You are now a part of Code Thesaurus history!
-
+Then finally, the maintainers can merge in your changes. Congrats! You are now a part of Code Thesaurus history!
