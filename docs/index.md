@@ -4,11 +4,11 @@
 
 In a simple term, a polyglot developer reference tool.
 
-What's that? It's basically a way to compare a language you know with a language you don't know. The idea is rather than having to parse a ton of documentation on a language, you can compare something you don't know to something you do, which will let you quickly figure out not just what to do but help you learn it as well. It's kind of like language immersion but for programming languages.
+What's that? It's a way to compare a language you know with a language you don't know. The idea is rather than having to parse a ton of documentation on a language, you can compare something you don't know to something you do, which will let you quickly figure out not just what to do but help you learn it as well. It's kind of like language immersion but for programming languages.
 
 ## What is the goal of this project?
 
-To literally be able to look at any two programming languages and see how their structures ## and usages compare. 
+To literally be able to look at any two programming languages and see how their structures and usages compare. 
 
 A further down the road goal would be to be able to compare other things like database query commands, data structures, standard algorithms, and more.
 
@@ -23,7 +23,7 @@ Feel free to see the [Architecture](project_architecture.md) section, but the go
 ## How can I help?
 
 We're still in the early stages, but some options include:
-* Look through the repo for issues or bugs 
-* Add to the meta files to build up information about languages you know
+* Look through the [repo](https://github.com/codethesaurus/) for [issues or bugs](https://github.com/codethesaurus/codethesaur.us/issues) 
+* Add to the [meta language files](https://github.com/codethesaurus/codethesaur.us/tree/main/web/thesauruses) to build up information about languages you know
 * Help think through the future of what Code Thesaurus could be
-* Find more developers of any experience level and background to help contribute!
+* Find more developers of any experience level and background to help [contribute](https://github.com/codethesaurus/codethesaur.us/blob/main/CONTRIBUTING.md)!
