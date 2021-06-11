@@ -22,6 +22,7 @@ plugins:
 
 nav:
 - Home: index.md
+- About/History: about.md
 - Overview: overview.md
 - Contributing: contributing.md
 - Installation/Running Locally: install.md
