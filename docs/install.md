@@ -100,7 +100,7 @@ update these directions soon.
 1. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
 1. Switch into to directory with `cd codethesaur.us`
 1. Run `pip3 install virtualenv`
-1. To set up new virtual environment, run `virtualenv --no-site-packages venv`
+1. To set up new virtual environment, run `virtualenv venv`
 1. To activate virtual environment, run `source venv/bin/activate`
 1. Run `pip3 install -r requirements.txt` to install all the needed dependencies
 1. Then run `python3 manage.py runserver` to start the server
