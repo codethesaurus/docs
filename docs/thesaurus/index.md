@@ -29,7 +29,7 @@ If you have any questions about it, you are welcome to ask through:
 
 Preferred: Reach out on Twitter [@codethesaurus](https://twitter.com/codethesaurus) or add a comment to a [new or existing issue](https://github.com/codethesaurus/codethesaur.us/issues).
 
-You could also email the core team (coreteam@codethesaur.us).
+You could also email the core team ([coreteam@codethesaur.us](mailto:coreteam@codethesaur.us)).
 
 ## Add an Existing Structure Set to a Language
 
