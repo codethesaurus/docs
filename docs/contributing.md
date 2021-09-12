@@ -18,7 +18,7 @@ Read on to learn how to take on issues or thesaurus data files to contribute!
 
 ## Check Out the Project
 
-Head over to http://codethesaur.us to see how the site currently works. 
+Head over to [https://codethesaur.us](https://codethesaur.us) to see how the site currently works. 
 
 You can also head over to the site [Documentation](https://docs.codethesaur.us/) and read about how the site is designed and developed and how the core thesaurus files are created.
 
