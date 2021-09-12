@@ -18,11 +18,12 @@ Read on to learn how to take on issues or thesaurus data files to contribute!
 
 ## Check Out the Project
 
-Head over to http://codethesaur.us to see how the site currently works. 
+Head over to [https://codethesaur.us](https://codethesaur.us) to see how the site currently works. 
 
 You can also head over to the site [Documentation](https://docs.codethesaur.us/) and read about how the site is designed and developed and how the core thesaurus files are created.
 
 All of Code Thesaurus's changes fall into these categories:
+
 * Working on features or bugs filed as [Issues](https://github.com/codethesaurus/codethesaur.us/issues) on the main site
 * Adding programming language information to the thesaurus data files
 * Editing [documentation](https://docs.codethesaur.us) for the project (under that [repo](https://github.com/codethesaurus/docs)
