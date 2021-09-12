@@ -5,6 +5,7 @@ The project is broken down into several parts. The idea is to make it as easy to
 ## Basic idea
 
 The main way this is broken down will be:
+
 * Website (codethesaur.us)
 * Programming language data files
 * (later) meta data for other types of comparable data
@@ -34,6 +35,7 @@ The following may seem complex, but there are multiple issues that come to light
 ## Programming Language Data
 
 Every programming language will be broken down into several parts, with data stored in JSON files:
+
 * Languages available (JSON file listing other languages)
 * Language name (directory)
     * Version number (directory ex: Java might be "8, 9, 10" while C++ could be "C++11, C++14, C++17" while Python could be "2.6, 2.7, 3.5")
@@ -55,6 +57,7 @@ I wanted a combination of easy to read for a human, easy to parse for a computer
 ## What Should Be Included?
 
 I'd love everything to be included. This can be:
+
 * The most common languages (like Java, C, Python, C++, C#, VB.Net, Ruby, JavaScript, PHP, Go, Swift)
 * Languages not as common anymore (like Pascal, Delphi, Objective-C, Perl)
 * All different breeds of languages (ex: JavaScript for browsers, JavaScript for Node, TypeScript, ECMAScript, etc.)
