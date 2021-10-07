@@ -1,6 +1,14 @@
 # How to Contribute to Code Thesaurus
 
-Hello! I'm glad you're reading this because Code Thesaurus can always use more help adding language data, fixing site bugs, working on documentation, and more!
+<a href="https://github.com/codethesaurus/codethesaur.us/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=codethesaurus/codethesaur.us&max=100"
+        alt="An image showing all of the contributors to Code Thesaurus so far"
+        style="margin-left: auto; margin-right: auto; display: block;"/>
+</a>
+
+*All of Code Thesaurus's contributors to date! Made with [contributors-img](https://contrib.rocks).*
+
+Hello! I'm glad you're reading this because I ([geekygirlsarah](https://twitter.com/geekygirlsarah)) can use more help with getting Code Thesaurus to become a working and usable site!
 
 ## Code of Conduct
 
