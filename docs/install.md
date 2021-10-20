@@ -2,6 +2,21 @@
 
 Here's some various ways to can run the project yourself!
 
+## Docker Compose
+
+The first way to run Code Thesaurus locally is through docker-compose.
+
+### Running with docker-compose
+
+Run it simply executing the following command:
+   - You can run it with ```docker-compose up```.
+
+There are also some useful flags you can add to the command:
+
+   - By running ```docker-compose up -d``` the application will run in "background", and you'll be able to close the console.
+   - By running ```docker-compose up -d --build``` you will be able to rebuild the container's image.
+   - By running ```docker-compose up -d --force-recreate``` you can force docker-compose to recreate your container.
+
 ## Docker Container
 
 One of the easiest ways to run Code Thesaurus locally is through a Docker container. 
