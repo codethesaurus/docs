@@ -19,7 +19,7 @@ There are also some useful flags you can add to the command:
 
 ## Docker Container
 
-One of the easiest ways to run Code Thesaurus locally is through a Docker container. 
+The second easiest way to run Code Thesaurus locally is through a Docker container. 
 
 ### Build and Run the Container
 
