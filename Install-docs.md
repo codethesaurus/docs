@@ -69,7 +69,16 @@ You can attach to the running container with:
 ```
 docker attach ct-docs-container
 ```    
-After attaching, you have to stop the development server by pressing CTRL+C.
+After attaching, you have to stop the documentaion development server by pressing CTRL+C.
+
+### Commands to Run
+
+If you run the container in the foreground with Bash, here's a couple of helpful commands:
+
+* start the local documentation development server
+```
+mkdocs serve -a 0.0.0.0:8000
+```
 
 ### Closing the Running Container
 
