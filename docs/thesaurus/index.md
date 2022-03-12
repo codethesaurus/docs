@@ -11,7 +11,7 @@ We are working towards using standard terminology across the site:
 <dl>
   <dt>Structure</dt>
   <dd>
-    a broad category of things you can generally do in programming languages. These are like arrays, functions, classes, etc. These are in the dropdown lists on the home page.
+    a broad category of things you can generally do in programming languages. These are like arrays, functions, classes, etc. These are in the drop-down lists on the home page.
   </dd>
   <dt>Concepts</dt>
   <dd>
@@ -23,13 +23,13 @@ We are working towards using standard terminology across the site:
   </dd>
   <dt>Features</dt>
   <dd>
-    Deprecated. It was used interchangably with structures and concepts.
+    Deprecated. It was used interchangeably with structures and concepts.
   </dd>
 </dl>
 
-There might be old references, both in code and in documentation, that interchangably uses "structures" and "concepts". We're working to remove these. If you find one that's wrong, vague, or ambiguous, please let us know. You're welcome to update the [docs on Github](https://github.com/codethesaurus/docs) too!
+There might be old references, both in code and in documentation, that interchangeably uses "structures" and "concepts". We're working to remove these. If you find one that's wrong, vague, or ambiguous, please let us know. You're welcome to update the [docs on Github](https://github.com/codethesaurus/docs) too!
 
-## Adding New Structures to Code Thesaurus
+## Add an Existing Structure Set to a Language
 
 If the language you are looking at is missing a structure to it, you are welcome to go in and add it! The structures are stored in files within the `web/thesauruses/` and then the language directory and major version below that. The structure files are within that directory.
 
@@ -46,9 +46,9 @@ Preferred: Reach out on Twitter [@codethesaurus](https://twitter.com/codethesaur
 
 You could also email the core team ([coreteam@codethesaur.us](mailto:coreteam@codethesaur.us)).
 
-## Add an Existing Structure Set to a Language
+## Adding New Structures to Code Thesaurus
 
-If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the above section on how to copy over a concept if it does.
+If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the [above section](#add-an-existing-structure-set-to-a-language) on how to copy over a concept if it does.
 
 If it needs to be added, then you will need to follow these steps.
 
@@ -95,13 +95,13 @@ If a programming language doesn't exist yet in Code Thesaurus, you are welcome t
 
 First, you will need to open up `web/thesauruses/meta_info.json`. Within that file, the first section is for languages. Add in your language to that section in alphabetical order. From there, assign it to a directory name in the JSON structure.
 
-After you save that file, go make a new subdirectory with same name in `web/thesauruses/`. From there, copy one or more of the files in `web/thesauruses/_templates` into the language subdirectory. From there you should be good to implement those features in that concept file!
+Then, add any structures that you feel comfortable to do as described in [Add an Existing Structure Set to a Language](#add-an-existing-structure-set-to-a-language)
 
 For every concept you have to decide:
 * Either provide some example code after the `"code"` label which may be an array to provide multiple code snippets.
-* Or delare that concept as not implemented using `"not-implemented": true`.
+* Or declare that concept as not implemented using `"not-implemented": true`.
 
-In both cases you can add a `"comment"` to explain particuarities about this concept for the language you're describing.
+In both cases you can add a `"comment"` to explain particularities about this concept for the language you're describing.
 
 ## Contributing Your Changes
 
