@@ -21,14 +21,37 @@ plugins:
   - git-revision-date
 
 nav:
-- Home: index.md
-- About/History: about.md
-- Overview: overview.md
-- Contributing: contributing.md
-- Installation/Running Locally: install.md
-- Website: website/index.md
-- Thesaurus Files: thesaurus/index.md
-- Project Architecture: project_architecture.md
-- FAQs: faq/index.md
-- Code of Conduct: CODE_OF_CONDUCT.md
-- Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
+  - Home: index.md
+  - About:
+    - About the Project: about/about.md
+  - Contributing: contributing.md
+  - Code of Conduct: CODE_OF_CONDUCT.md
+  - Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
+  - Install and Running:
+    - Run CT by Docker: install/install-ct-docker.md
+    - Run CT Manually: install/install-ct-manual.md
+    - Run Docs by Docker: install/install-docs-docker.md
+    - Run Docs Manually: install/install-docs-manual.md
+  - Website:
+    - About CT Django Project: website/index.md
+    - Project Architecture: website/project-architecture.md
+    - Database Architecture: website/database-architecture.md
+  - Thesaurus Files:
+    - Overview: thesaurus/index.md
+    - Best Practices: thesaurus/best-practices.md
+    - Adding a Concept in a Language: thesaurus/add-lang-concept.md
+    - Adding a New Language: thesaurus/add-new-lang.md
+    - Adding a New Meta Structure File: thesaurus/add-new-structure.md
+  - FAQs: faq/index.md
+  - Old:
+    - Home: index.md
+    - About/History: about.md
+    - Overview: overview.md
+    - Contributing: contributing.md
+    - Installation/Running Locally: install.md
+    - Website: website/index.md
+    - Thesaurus Files: thesaurus/index.md
+    - Project Architecture: project_architecture.md
+    - FAQs: faq/index.md
+    - Code of Conduct: CODE_OF_CONDUCT.md
+    - Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
