@@ -99,6 +99,7 @@ suffix all `python` and `pip` commands with `3`, e.g. `pip3` and `python3`, or f
 1. To set up new virtual environment, run `virtualenv venv`
 1. To activate virtual environment, run `venv\Scripts\activate.bat`
 1. Run `pip install -r requirements.txt` to install all the needed dependencies
+1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
 1. Then run `python manage.py runserver` to start the server
 1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 
 1. Press CTRL+C in the terminal to stop the server
