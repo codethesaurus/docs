@@ -28,7 +28,7 @@ You agree to follow our Code of Conduct while working on the project and/or bein
 
 Code Thesaurus grew out of [@geekygirlsarah](https://twitter.com/geekygirlsarah) building it over Hacktoberfests 2018-2021. She's loved working with the community each year to on the project, and so Code Thesaurus plans to opt-in to future events.
 
-Learn more about the event on [the Hacktoberfest website](https://hacktoberfest.digitalocean.com/).
+Learn more about the event on [the Hacktoberfest website](https://hacktoberfest.com/).
 
 ## Check Out the Project
 
