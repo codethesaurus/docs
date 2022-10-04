@@ -22,7 +22,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - About the Project: about/about.md
+  - About the Project: about/index.md
   - Contributing: contributing.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
