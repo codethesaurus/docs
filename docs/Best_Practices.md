@@ -21,7 +21,7 @@ These are the guidelines to fill out a concept card.
 7. You should have `code`, or `code + comment`, or `not-implemented`, or `not-implemented + comment`
 8. When the Implementation is test, use `hash marks` to identify key words. 
 
-
+<!--
 ## Programming Language Data
 
 Every programming language will be broken down into several parts, with data stored in JSON files:
@@ -37,4 +37,4 @@ Every programming language will be broken down into several parts, with data sto
                * code (example of how it's written in code)
                * comment (explanation of parts of the code)
                * doesn't exist flag (for something that doesn't exist in a language
-
+-->
