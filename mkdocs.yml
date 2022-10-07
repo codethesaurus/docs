@@ -25,6 +25,7 @@ nav:
 - About/History: about.md
 - Overview: overview.md
 - Contributing: contributing.md
+- Quick Start Guide: quick_start.md
 - Installation/Running Locally: install.md
 - Website: website/index.md
 - Thesaurus Files: thesaurus/index.md
