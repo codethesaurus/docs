@@ -70,6 +70,8 @@ If you run the container in the foreground with Bash, here's a couple of helpful
 
 * `python manage.py runserver` - start the local development server
 * `python manage.py test` - run all unit tests
+* `python manage.py validatemetainfofile` - run validation on the `web/thesauruses/meta_info.json` file
+* `python manage.py validatelanginfofiles` - run validation on the other files in `web/thesauruses`
 
 ### Closing the Running Container
 
