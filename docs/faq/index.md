@@ -69,7 +69,10 @@ There are also prefix and postfix operators that might get confusing if people d
 Therefore, the concepts need to show that even though we use the same operator, like **+**, it is between or before or after the operands so that a developer reader could use the information to implement the concept in their own code.
 
 ## What if I am assigned an Issue, but I can't finish it (as a contributor)?
-If you've started, do a PR for whatever you have accomplished. If you have not started, that's ok. In both instances, it helps to communicate. Make a comment on the Issue that you are no longer available, so someone else can get the assignment and the work can still be accomplished. More info at the [Code of Conduct](https://github.com/codethesaurus/codethesaur.us/blob/main/CODE_OF_CONDUCT.md).
+If you've started, do a PR for whatever you have accomplished. If you have not started, that's ok. In both instances, it helps to communicate. Make a comment on the Issue that you are no longer available, so someone else can get the assignment and the work can still be accomplished. More info at the [Code of Conduct](https://github.com/codethesaurus/codethesaur.us/blob/main/CODE_OF_CONDUCT.md). 
+
+## How long do I have to make my contribution PR?
+You should submit something within a week of being assigned. This lets the community know you are doing the work and keeps you assigned to the Issue. However, if you get unassigned and are still working, you can be reassigned. See [Contributing](contributing.md) for more info.
 
 ## Should I wait and submit all of my changes as one PR or do smaller ones as I go?
 It is best to do smaller PRs. That helps us all get contributions moved into the code and improve Code Thesaurus more rapidly. Large PRs may be tricky to resolve with code review. 
