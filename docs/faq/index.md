@@ -22,35 +22,34 @@ It's an easy way to store the kind of information we are using. See the [Archite
 
 ## How can a concept be represented for a language? How does that look in the code?
 
-1. concept exists (and has example code)
-
+1\. concept exists in the language
 ```json
-"some_concept": {
-    "name":"some concept name",
-    "code": ["this language code interpretation of concept"],
-    "comment": "optional comment",
+    "some_concept": {
+        "name":"some concept name",
+        "code": ["this language code interpretation of concept"],
+        "comment": "optional comment",
         },
 ```
-2. concept doesn't exist (therefore can't have code)
 
+2\. concept doesn't exist in the language (therefore can't have code)
 ```json
-"some_concept": {
-    "name":"some concept name",
-    "comment": "optional comment",
-    "not-implemented": true
+    "some_concept": {
+        "name":"some concept name",
+        "comment": "optional comment",
+        "not-implemented": true
+            },
+```
+
+3\. unknown state (the ID got added but wasn't added to the file)
+```json
+    "some_concept": {
+        "name":"some concept name"
         },
 ```
-3. unknown state (the ID got added but wasn't added to the file)
 
+4\. concept exists (but no example code)
 ```json
-"some_concept": {
-    "name":"some concept name"
-        },
-```
-4. concept exists (but no example code)
-
-```json
-"some_concept": {
+    "some_concept": {
     "name":"some concept name",
     "comment": "optional comment",
         },
@@ -78,4 +77,6 @@ You should submit something within a week of being assigned. This lets the commu
 It is best to do smaller PRs. That helps us all get contributions moved into the code and improve Code Thesaurus more rapidly. Large PRs may be tricky to resolve with code review. 
 
 ## What level of detail are the language references? 
-Major versions of languages with breaking changes should be included separately as if they were separate languages. Compare Python 2 vs Python 3. Ruby 2 vs Ruby 3. Things like that. The goal is to see how the major versions can evolve, and do things to help people upgrade their code (like old Python 2 projects still exist because people find it's really hard to migrate them). Comparing Python 3.9 and 3.10 is a little too nit-picky, and to get into 3.9.1 vs 3.9.2 is way too nit-picky.
+Major versions of languages with breaking changes should be included separately as if they were separate languages. Compare Python 2 vs Python 3. Ruby 2 vs Ruby 3. The goal is to see how the major versions can evolve, and do things to help people upgrade their code (like old Python 2 projects still exist because people find it's really hard to migrate them). Comparing Python 3.9 and 3.10 is a little too nit-picky, and to get into 3.9.1 vs 3.9.2 is way too nit-picky.
+
+Changes in the implementation of the concept in the language in minor version X.1 or X.1.1 should be included in comments, like `"comment": "Added in version 3.7"` or `"comment": "Deprecated in version 3.67.1".` or `"comment": "Before version 1.5, implemented like blah blah"`
