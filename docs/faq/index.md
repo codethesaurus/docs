@@ -17,6 +17,9 @@ You can leave it blank. For example,
 ## What kinds of languages and structures are / can be included?
 This is detailed in [Architecture](project_architecture.md)
 
+## Why are all of the files in JSON?
+It's an easy way to store the kind of information we are using. See the [Architecture](project_architecture.md) for a slightly longer answer.
+
 ## How can a concept be represented for a language? How does that look in the code?
 
 1. concept exists (and has example code)
@@ -67,3 +70,9 @@ Therefore, the concepts need to show that even though we use the same operator, 
 
 ## What if I am assigned an Issue, but I can't finish it (as a contributor)?
 If you've started, do a PR for whatever you have accomplished. If you have not started, that's ok. In both instances, it helps to communicate. Make a comment on the Issue that you are no longer available, so someone else can get the assignment and the work can still be accomplished. More info at the [Code of Conduct](https://github.com/codethesaurus/codethesaur.us/blob/main/CODE_OF_CONDUCT.md).
+
+## Should I wait and submit all of my changes as one PR or do smaller ones as I go?
+It is best to do smaller PRs. That helps us all get contributions moved into the code and improve Code Thesaurus more rapidly. Large PRs may be tricky to resolve with code review. 
+
+## What level of detail are the language references? 
+Major versions of languages with breaking changes should be included separately as if they were separate languages. Compare Python 2 vs Python 3. Ruby 2 vs Ruby 3. Things like that. The goal is to see how the major versions can evolve, and do things to help people upgrade their code (like old Python 2 projects still exist because people find it's really hard to migrate them). Comparing Python 3.9 and 3.10 is a little too nit-picky, and to get into 3.9.1 vs 3.9.2 is way too nit-picky.
