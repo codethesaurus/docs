@@ -15,10 +15,10 @@ You can leave it blank. For example,
         },
 ```
 ## What kinds of languages and structures are / can be included?
-This is detailed in [Architecture](project_architecture.md)
+This is detailed in [Architecture](/project_architecture/)
 
 ## Why are all of the files in JSON?
-It's an easy way to store the kind of information we are using. See the [Architecture](project_architecture.md) for a slightly longer answer.
+It's an easy way to store the kind of information we are using. See the [Architecture](/project_architecture/) for a slightly longer answer.
 
 ## How can a concept be represented for a language? How does that look in the code?
 
