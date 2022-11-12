@@ -90,6 +90,8 @@ If you run `python --version` and it shows Python 2.x but you know you have Pyth
 suffix all `python` and `pip` commands with `3`, e.g. `pip3` and `python3`, or follow the process for making Python
 3 your default Python installation.
 
+Note: If you have a local `DATABASE_URL` environment variable, you will have to clear it to start Code Thesaurus locally. This is because Django tries connecting to the database specified in this variable, which will possibly lead to time-outs and the service not starting up.
+
 ### Manual Install - Windows
 
 1. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
