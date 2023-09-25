@@ -20,6 +20,10 @@ The brain behind this is [Sarah Withee](https://twitter.com/geekygirlsarah), a p
 
 Feel free to see the [Architecture](docs/project_architecture.md) section, but the goal will be to have a website that can look into language meta files, pull out the information the user is looking for, and match up structures side-by-side. 
 
+## Is this project available for Hacktoberfest?
+
+Yes! The Code Thesaurus code and documentation projects are both enabled for Hacktoberfest contributions.
+
 ## How can I help?
 
 We're still in the early stages, but some options include:
