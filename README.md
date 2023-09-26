@@ -14,6 +14,10 @@ Learn more by reading over the [project details](https://docs.codethesaur.us/abo
 
 You can find the directions to [run with Docker](https://docs.codethesaur.us/install/install-docs-docker) or to [run manually](https://docs.codethesaur.us/install/install-docs-manual) on the docs site.
 
+## Is this project available for Hacktoberfest contributions?
+
+Yes! The Code Thesaurus code and documentation projects are both enabled for Hacktoberfest contributions.
+
 ## How can I help?
 
 This project values open source contributors, both to the main project and to the documentation! We'd love to have your help.

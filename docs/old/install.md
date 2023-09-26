@@ -70,6 +70,8 @@ If you run the container in the foreground with Bash, here's a couple of helpful
 
 * `python manage.py runserver` - start the local development server
 * `python manage.py test` - run all unit tests
+* `python manage.py validatemetainfofile` - run validation on the `web/thesauruses/meta_info.json` file
+* `python manage.py validatelanginfofiles` - run validation on the other files in `web/thesauruses`
 
 ### Closing the Running Container
 
@@ -88,6 +90,8 @@ If you run `python --version` and it shows Python 2.x but you know you have Pyth
 suffix all `python` and `pip` commands with `3`, e.g. `pip3` and `python3`, or follow the process for making Python
 3 your default Python installation.
 
+Note: If you have a local `DATABASE_URL` environment variable, you will have to clear it to start Code Thesaurus locally. This is because Django tries connecting to the database specified in this variable, which will possibly lead to time-outs and the service not starting up.
+
 ### Manual Install - Windows
 
 1. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
@@ -99,6 +103,7 @@ suffix all `python` and `pip` commands with `3`, e.g. `pip3` and `python3`, or f
 1. To set up new virtual environment, run `virtualenv venv`
 1. To activate virtual environment, run `venv\Scripts\activate.bat`
 1. Run `pip install -r requirements.txt` to install all the needed dependencies
+1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
 1. Then run `python manage.py runserver` to start the server
 1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 
 1. Press CTRL+C in the terminal to stop the server
@@ -118,6 +123,7 @@ update these directions soon.
 1. To set up new virtual environment, run `virtualenv venv`
 1. To activate virtual environment, run `source venv/bin/activate`
 1. Run `pip3 install -r requirements.txt` to install all the needed dependencies
+1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
 1. Then run `python3 manage.py runserver` to start the server
 1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 1. Press CTRL+C in the terminal to stop the server
@@ -138,6 +144,7 @@ search online for instructions on using your distribution's package manager.
 1. Set up the Python virtual environment with `python3 -m venv venv`
 1. Activate the virtual environment with `source venv/bin/activate`
 1. Install the dependencies with `pip install -r requirements.txt`
+1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
 1. Then run the app with `python3 manage.py runserver`
 1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 1. Press CTRL+C in the terminal to stop the server

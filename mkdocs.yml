@@ -27,6 +27,7 @@ nav:
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
   - Installing and Running:
+    - Quick Start Guide: quick_start.md
     - Run CT with Docker: install/install-ct-docker.md
     - Run CT Manually: install/install-ct-manual.md
     - Run Docs with Docker: install/install-docs-docker.md
