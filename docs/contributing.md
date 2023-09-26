@@ -26,7 +26,7 @@ You agree to follow our Code of Conduct while working on the project and/or bein
 
 ## Hacktoberfest
 
-Code Thesaurus grew out of [@geekygirlsarah](https://twitter.com/geekygirlsarah) building it over Hacktoberfests 2018-2021. She's loved working with the community each year to on the project, and so Code Thesaurus plans to opt-in to future events.
+Code Thesaurus grew out of [@geekygirlsarah](https://twitter.com/geekygirlsarah) building it over Hacktoberfests 2018-2023. She's loved working with the community each year to on the project, and so Code Thesaurus plans to opt-in to future events.
 
 Learn more about the event on [the Hacktoberfest website](https://hacktoberfest.com/).
 
@@ -41,6 +41,7 @@ You can also look at the About section to learn more about the history, how the 
 ## What Can I Do?
 
 Some of the types of work we need here include:
+
 * Working on site features or bugs filed as [Issues](https://github.com/codethesaurus/codethesaur.us/issues) on the project.
 * Adding programming language information to the thesaurus data files (issues are tagged by language).
 * Adding new programming languages. Those won't have issues, but follow the directions on the Thesaurus section of the docs to add them, then make a pull request.

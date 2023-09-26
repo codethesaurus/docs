@@ -26,7 +26,7 @@ Check out the Install section to get all of the installation directions for the 
 
 This project values open source contributors, both to the main project and to the documentation! We'd love to have your help.
 
-* Start with our [Contribution Guidelines](/contributing)
+* Start with our [Contribution Guidelines](contributing.md)
 * Look through [the repo](https://github.com/codethesaurus/docs/issues/) for issues or bugs
 * Add any missing information on the main site
 * Correct any incorrect information on the main site or the documentation
