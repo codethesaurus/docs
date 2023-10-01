@@ -28,18 +28,20 @@ nav:
   - Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
   - Installing and Running:
     - Quick Start Guide: install/quick_start.md
-    - Run CT with Docker: install/install-ct-docker.md
-    - Run CT Manually: install/install-ct-manual.md
+    - Run App with Docker: install/install-ct-docker.md
+    - Run App Manually: install/install-ct-manual.md
     - Run Docs with Docker: install/install-docs-docker.md
     - Run Docs Manually: install/install-docs-manual.md
   - Website Development:
-    - About CT Django Project: website/index.md
+    - About App Django Project: website/index.md
     - Project Architecture: website/project-architecture.md
     - Database Architecture: website/database-architecture.md
   - Thesaurus Editing:
     - Overview: thesaurus/index.md
     - Best Practices: thesaurus/best-practices.md
-    - Adding a Concept in a Language: thesaurus/add-lang-concept.md
+    - Adding a Concept in an Existing Language: thesaurus/add-lang-concept.md
     - Adding a New Language: thesaurus/add-new-lang.md
-    - Adding a New Meta Structure File: thesaurus/add-new-structure.md
+    - Adding a New Language Version: thesaurus/add-new-lang-version.md
+    - Adding a New Structure File: thesaurus/add-new-structure.md
+    - Contributing Changes: thesaurus/contributing.md
   - FAQs: faq/index.md

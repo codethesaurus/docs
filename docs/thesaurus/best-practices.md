@@ -1,23 +1,14 @@
-# Code Thesaurus Best Practices
+# Best Practices
 
- Code Thesaurus is a reference tool for what exists in a language to compare similar concepts in other languages. 
+These are the best practices for how to work within Code Thesaurus.
 
-These are the best practices for how to write an entry to Code Thesaurus. In code there are multiple ways to solve the same problem. It will be easier to compare each language's implementation of a concept if the main difference in the `Concept Card` is in the syntax and not in the descriptions. 
-
-These are the guidelines to fill out a concept card. 
-
-
-## Best Practices
-
-### General Overview
-
-1. Code blocks must technically compile. It should work in production.
-2. Leave comments out of code blocks and put in comment blocks instead.
-3. Try to have code blocks match other code blocks as much as possible. The code blocks should match chronologically and structurally.  
-4. If there's more than one way to do things, you can write both in a code block, but differentiate them with a comment.
-5. Anything that's not intuitive to a beginner needs a comment. Don't assume everyone knows the "easy stuff". This is a learning tool and new learners might be using it. They may not know what is automatic to an experienced developer.
-6. Operators need to show order (prefix, postfix, infix)
-7. You should have `code`, or `code + comment`, or `not-implemented`, or `not-implemented + comment`
-8. When the Implementation (code block) is text and not actual code, use `hash marks` to identify keywords or syntax.
-9. If a concept doesn't appear in a language, do not add it(Don't write an algorithm to do equivalent functionality).
-
+1. Code blocks must technically compile. If someone copied and pasted it, it should in theory work. (So for example, saying "a variable would go here" won't likely work, but "a_varaible_goes_here" likely would.)
+2. Leave comments out of code blocks and put in comment blocks instead. (So try to keep each `code` block in the JSON files to as much code as possible, and anything you wish to note add in a `comment` block instead.)
+3. Try to have code blocks match other code blocks as much as possible. The code blocks should match structurally to other similar languages, but match the style and syntax of the language you are working in..  
+4. If there's more than one way to do things, you can write both in a code block, but differentiate them with a comment. Code blocks should be arrays (though for backward compatibility for older files, they can be strings).
+5. Assume anyone reading it might be a beginner. Because something is "easy" or "obvious" to you may not be either to someone else. This is a learning tool and new learners might be using it.
+6. Operators need to show order (prefix, postfix, infix). (So just putting "*" for multiplication is wrong, use "a * b" or "* a b" as some languages differentiate order of operators and operands.)
+7. For each concept in a file, you can have `code`, `code + comment`, `not-implemented`, or `not-implemented + comment`. Other combinations are not valid and might result in errors on the build process as it checks them over.
+8. In comments, you can use backticks (\`like this\`) to refer to bits of code within text. 
+9. If a concept doesn't appear in a language, mark it with "not-implemented: true" and do not add equivalent code to make it happen. (So if a language doesn't have the functionality, don't write the algorithm to add it).
+10. In code, there are multiple ways to solve the same problem. You can list each way to do it in the "code" block of the JSON files and use the "comment" block to differentiate when the use cases might be to pick which one. If any of them can be used, you don't have to leave a comment.
