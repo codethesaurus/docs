@@ -27,7 +27,7 @@ We are working towards using standard terminology across the site:
   </dd>
 </dl>
 
-There might be old references, both in code and in documentation, that interchangeably uses "structures" and "concepts". We're working to remove these. If you find one that's wrong, vague, or ambiguous, please let us know. You're welcome to update the [docs on Github](https://github.com/codethesaurus/docs) too!
+There might be old references, both in code and in documentation, that interchangeably uses "structures" and "concepts". We're working to remove these. If you find one that's wrong, vague, or ambiguous, please let us know. You're welcome to update the [docs on GitHub](https://github.com/codethesaurus/docs) too!
 
 ## Add an Existing Structure Set to a Language
 
@@ -38,7 +38,7 @@ You can open that structure file and add or edit any language features you find 
 The ID names for each of the concepts is consistent across all the languages in order to help match up the concepts with each other. The ID has to stay the same, but the other data doesn't have to (and maybe shouldn't).
 
 If the language doesn't have that structure file yet, you can generate a template either by visiting `https://codethesaur.us/reference/?concept=<your_concept>&lang=<language>%3B<language_major_version>`
-and copying it over from there or use `./manage.py generate_templates --language_version=<language_version> <language> <structure>` to generate a file pre filled with the relevant meta info on the top waiting for you to fill the various code segments.
+and copying it over from there or use `./manage.py generate_templates --language_version=<language_version> <language> <structure>` to generate a file pre-filled with the relevant meta info on the top waiting for you to fill the various code segments.
 
 If you have any questions about it, you are welcome to ask through:
 

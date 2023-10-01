@@ -18,7 +18,7 @@ Read on to learn more about the contribution process.
 
 ## Code of Conduct
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socioeconomic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -26,7 +26,7 @@ You agree to follow our Code of Conduct while working on the project and/or bein
 
 ## Hacktoberfest
 
-Code Thesaurus grew out of [@geekygirlsarah](https://twitter.com/geekygirlsarah) building it over Hacktoberfests 2018-2023. She's loved working with the community each year to on the project, and so Code Thesaurus plans to opt-in to future events.
+Code Thesaurus grew out of [@geekygirlsarah](https://twitter.com/geekygirlsarah) building it over Hacktoberfests 2018-2023. She's loved working with the community each year to on the project, and so Code Thesaurus plans to opt in to future events.
 
 Learn more about the event on [the Hacktoberfest website](https://hacktoberfest.com/).
 
@@ -34,7 +34,7 @@ Learn more about the event on [the Hacktoberfest website](https://hacktoberfest.
 
 First, head over to [https://codethesaur.us](https://codethesaur.us/) to see how the site currently works. 
 
-You can also install and run it yourself by reading over the Install section of these docs. 
+You can also install and run it yourself by reading over the Installation section of these docs. 
 
 You can also look at the About section to learn more about the history, how the site is designed and developed, and how the core thesaurus files are created.
 
@@ -57,19 +57,19 @@ First, review the full issue as I try to make them as detailed as possible. If y
 
 If you take more than a couple of weeks to work on it, I may send you a message asking about the status. This is mostly to see how you're doing and if you have questions. We understand people get busy and that life happens, so if you still want to work on it but are just slow, we understand!
 
-If we reach out and don't hear back from you, we may unassign you to that issue. This opens it up for others to work on. If you're unassigned but still want to work on it, let us know and we can reassign you.
+If we reach out and don't hear back from you, we may un-assign you to that issue. This opens it up for others to work on. If you're unassigned but still want to work on it, let us know and we can reassign you.
 
 ## Thesaurus Data Updates
 
 The ultimate goal of Code Thesaurus is to provide the _best_ polyglot developer reference tool to any and all developers, regardless of language they code in. To that end, we'll need contributions not just to the website framework but to the actual thesaurus data files too.
 
-We try to make issues for all of the information we know is missing, but there's no way to create issues for everything. If you see your favorite language isn't on the site, you're welcome to [add an issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose) to start working on it, or just go ahead and start adding it and make a pull request for it.
+We try to make issues for all the information we know is missing, but there's no way to create issues for everything. If you see your favorite language isn't on the site, you're welcome to [add an issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose) to start working on it, or just go ahead and start adding it and make a pull request for it.
 
 For more information on how to fill in missing language data, check out the Thesaurus section of these docs.
 
 ## Reporting Bugs or Issues
 
-Did you find a bug? Great! Make sure it's not already reported on our [Issues Page](https://github.com/codethesaurus/codethesaur.us/issues) page. If it's not, please open up a [New Issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose) and add it so I can look it over. (If it already exists, I may close it.)
+Did you find a bug? Great! Make sure it's not already reported on our [Issues](https://github.com/codethesaurus/codethesaur.us/issues) page. If it's not, please open up a [New Issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose) and add it so I can look it over. (If it already exists, I may close it.)
 
 Please make your issue as detailed as possible! Add in the page or URL where it happened, what you were doing when the error occurred, or any other details important to the issue. Any steps you include to recreate it help me out a lot. I may contact you to try to get more details if I can't replicate it.
 
@@ -80,7 +80,7 @@ Think you can tackle an issue? Great!
 1. First, fork the repo so you have your own copy of it
 2. Create a new branch. You can name it whatever you want, but I'd recommend something descriptive, like `issue-123-fix-string-exception`
 3. Make your changes! I suggest committing early and often.
-4. Make sure you test the changes on your own computer. See the Install section of the docs for directions on how to run it.
+4. Make sure you test the changes on your own computer. See the Installation section of the docs for directions on how to run it.
 5. If you test the changes and they work reliably, then [create a new pull request](https://github.com/codethesaurus/codethesaur.us/compare). The template should walk you through all the information you need to include. If you don't fill it out, the issue may be closed for being invalid or spam.
 6. GitHub Actions will run to test the changes and to validate data files. If you have contributed before, it should spin up a review deploy automatically.
 7. If any of the GitHub Actions fail, click on the details link next to it to see what went wrong. You will have to make changes for it to pass before your code can get merged in.

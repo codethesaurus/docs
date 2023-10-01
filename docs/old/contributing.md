@@ -12,7 +12,7 @@ Hello! I'm glad you're reading this because I ([geekygirlsarah](https://twitter.
 
 ## Code of Conduct
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socioeconomic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -54,11 +54,11 @@ These won't have issues. Instead, they're openly designed to allow people to add
 
 Please read over the [documentation site](https://docs.codethesaur.us) to learn about how the thesaurus system works. Then feel free to work on adding or correcting a data set!
 
-If you wish to officially claim a new lanuage not listed, please file a [New Issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose), add in the language and concept you plan to work on, and then I'll assign you to that.
+If you wish to officially claim a new language not listed, please file a [New Issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose), add in the language and concept you plan to work on, and then I'll assign you to that.
 
 ## Reporting Bugs or Issues
 
-Did you find a bug? Great! Make sure it's not already reported on our [Issues Page](https://github.com/codethesaurus/codethesaur.us/issues) page. If it's not, please open up a [New Issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose) and add it so I can look it over.
+Did you find a bug? Great! Make sure it's not already reported on our [Issues](https://github.com/codethesaurus/codethesaur.us/issues) page. If it's not, please open up a [New Issue](https://github.com/codethesaurus/codethesaur.us/issues/new/choose) and add it so I can look it over.
 
 Please make your issue as detailed as possible! Add in the page or URL it happened at, what you were doing when the error occurred, or any other details important to the issue. I may contact you to try to get more details if I can't replicate it.
 
@@ -67,13 +67,13 @@ Please make your issue as detailed as possible! Add in the page or URL it happen
 Think you can tackle an issue? Great! 
 
 1. First, fork the repo so you have your own copy of it
-1. Create a new branch. You can name it whatever you want, but I'd recommend something descriptive, like `issue-123-fix-string-exception`
-1. Make your changes! I suggest committing early and often.
-1. Make sure you test the changes. Check out how to run the project on the [`Installation`](install.md) page.
-1. If you can test the changes and they work reliably, then create a new pull request. Be sure to either add `Fixes #1234` or `Closes #1234` so GitHub can link your issue number automatically.
-1. The CI/CD system should run tests (if applicable) and spin up a sample deploy of the app. 
-1. I'll review it and leave any comments for things that may need to change. Changes aren't intended because your code is bad but more a consideration towards how it may work with other parts of the project or ways the user might interact with it.
-1. Finally, we'll merge it in! 
+2. Create a new branch. You can name it whatever you want, but I'd recommend something descriptive, like `issue-123-fix-string-exception`
+3. Make your changes! I suggest committing early and often.
+4. Make sure you test the changes. Check out how to run the project on the [`Installation`](install.md) page.
+5. If you can test the changes and they work reliably, then create a new pull request. Be sure to either add `Fixes #1234` or `Closes #1234` so GitHub can link your issue number automatically.
+6. The CI/CD system should run tests (if applicable) and spin up a sample deploy of the app. 
+7. I'll review it and leave any comments for things that may need to change. Changes aren't intended because your code is bad but more a consideration towards how it may work with other parts of the project or ways the user might interact with it.
+8. Finally, we'll merge it in! 
 
 Note: Due to the prolific spam at this year's Hacktoberfest, your PR may get marked as invalid or spam if it appears to not follow the request on the issue or appears to just be trying to get easy PRs for the shirt. If it's mistakenly marked as invalid/spam, please reach out so I can correct it.
 

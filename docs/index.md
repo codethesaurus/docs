@@ -20,7 +20,7 @@ If you're newer to open source, grab one of our ["Good First Issue" issues](http
 
 ## How do I install and run this repo?
 
-Check out the Install section to get all of the installation directions for the main site as well as the documentation.
+Check out the Installation section to get all the installation directions for the main site as well as the documentation.
 
 ## How can I help?
 

@@ -1,6 +1,6 @@
 # Code Thesaurus Best Practices
 
- Code Thesaurus is a reference tool for what exists in a language to compare simliar concepts in other languages. 
+ Code Thesaurus is a reference tool for what exists in a language to compare similar concepts in other languages. 
 
 These are the best practices for how to write an entry to Code Thesaurus. In code there are multiple ways to solve the same problem. It will be easier to compare each language's implementation of a concept if the main difference in the `Concept Card` is in the syntax and not in the descriptions. 
 
@@ -18,6 +18,6 @@ These are the guidelines to fill out a concept card.
 5. Anything that's not intuitive to a beginner needs a comment. Don't assume everyone knows the "easy stuff". This is a learning tool and new learners might be using it. They may not know what is automatic to an experienced developer.
 6. Operators need to show order (prefix, postfix, infix)
 7. You should have `code`, or `code + comment`, or `not-implemented`, or `not-implemented + comment`
-8. When the Implementation (code block) is text and not actual code, use `hash marks` to identify key words or syntax.
+8. When the Implementation (code block) is text and not actual code, use `hash marks` to identify keywords or syntax.
 9. If a concept doesn't appear in a language, do not add it(Don't write an algorithm to do equivalent functionality).
 

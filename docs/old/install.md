@@ -19,7 +19,7 @@ There are also some useful flags you can add to the command:
 
 ## Docker Container
 
-The second easiest way to run Code Thesaurus locally is through a Docker container. 
+The second-easiest way to run Code Thesaurus locally is through a Docker container. 
 
 ### Build and Run the Container
 
@@ -28,13 +28,13 @@ First, make sure that you have Docker installed and running on you local machine
 Next, you will need to build and run the app inside a container. Follow these steps:
 
 Note: If you run any of these `docker` commands and it says you don't have permission, you will need to open a Windows 
-Command Prompt or PowerShell session with administrator privledges, or type `sudo` before each command for Mac or Linux.
+Command Prompt or PowerShell session with administrator privileges, or type `sudo` before each command for Mac or Linux.
 
 1. Build the Docker image using the Dockerfile: 
    
     `docker build -t ct-image .`
 
-1. Then, run the Docker container by using the image that you've just created. If you want it to run in the background:
+2. Then, run the Docker container by using the image that you've just created. If you want it to run in the background:
    
     ``docker run --name ct-container -dti -p 8000:8000 -v `pwd`:/code ct-image``
 
@@ -46,15 +46,15 @@ Command Prompt or PowerShell session with administrator privledges, or type `sud
  
     ``docker run --name ct-container -ti -p 8000:8000 -v `pwd`:/code ct-image /bin/bash``
 
-1. You can check if the container is up and running by invoking: 
+3. You can check if the container is up and running by invoking: 
    
     `docker container ls`
    
     Your container should be present on the list as `ct-container`.
    
-1. The Django development server should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
+4. The Django development server should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
 
-1. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
+5. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
 
 ### Running Commands on a Running Container
 
@@ -95,39 +95,39 @@ Note: If you have a local `DATABASE_URL` environment variable, you will have to 
 ### Manual Install - Windows
 
 1. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
-1. Switch into to the directory with `cd codethesaur.us`
-1. Check to see if Python 3.x is installed with `python --version` or `python3 --version`. If Python 3.x isn't 
+2. Switch into to the directory with `cd codethesaur.us`
+3. Check to see if Python 3.x is installed with `python --version` or `python3 --version`. If Python 3.x isn't 
    installed, visit [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) or if you 
    have Chocolatey, install it with `choco install python`
-1. Install Python's virtual environment venv with the command `pip3 install virtualenv`
-1. To set up new virtual environment, run `virtualenv venv`
-1. To activate virtual environment, run `venv\Scripts\activate.bat`
-1. Run `pip install -r requirements.txt` to install all the needed dependencies
-1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
-1. Then run `python manage.py runserver` to start the server
-1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 
-1. Press CTRL+C in the terminal to stop the server
-1. To deactivate the virtual environment, run `venv\Scripts\deactivate.bat`
+4. Install Python's virtual environment venv with the command `pip3 install virtualenv`
+5. To set up new virtual environment, run `virtualenv venv`
+6. To activate virtual environment, run `venv\Scripts\activate.bat`
+7. Run `pip install -r requirements.txt` to install all the needed dependencies
+8. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
+9. Then run `python manage.py runserver` to start the server
+10. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 
+11. Press CTRL+C in the terminal to stop the server
+12. To deactivate the virtual environment, run `venv\Scripts\deactivate.bat`
 
 ### Manual Install - Mac
 
-Note: These instructions only work on Intel-based Macs. For the new M1 Macs, the basic install process is about the 
+Note: These instructions only work on Intel-based Macs. For the new M1 Macs, the basic installation process is about the 
 same, but you may need to review directions on Homebrew's website to see how to properly install Python. We hope to 
 update these directions soon.
 
 1. Check to see if Python 3.x is installed with `python --version` or `python3 --version`. If Python 3.x isn't 
    installed, install it with `brew install python`
-1. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
-1. Switch into to directory with `cd codethesaur.us`
-1. Run `pip3 install virtualenv`
-1. To set up new virtual environment, run `virtualenv venv`
-1. To activate virtual environment, run `source venv/bin/activate`
-1. Run `pip3 install -r requirements.txt` to install all the needed dependencies
-1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
-1. Then run `python3 manage.py runserver` to start the server
-1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-1. Press CTRL+C in the terminal to stop the server
-1. To deactivate the virtual environment, run `deactivate`
+2. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
+3. Switch into to directory with `cd codethesaur.us`
+4. Run `pip3 install virtualenv`
+5. To set up new virtual environment, run `virtualenv venv`
+6. To activate virtual environment, run `source venv/bin/activate`
+7. Run `pip3 install -r requirements.txt` to install all the needed dependencies
+8. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
+9. Then run `python3 manage.py runserver` to start the server
+10. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+11. Press CTRL+C in the terminal to stop the server
+12. To deactivate the virtual environment, run `deactivate`
 
 ### Manual Install - Linux
 
@@ -136,19 +136,19 @@ search online for instructions on using your distribution's package manager.
 
 1. Check to see if the system default `python --version` works. If the returned text is not python 3.x then try using 
    `python3 --version`. If both `python` and `python3` are installed, use whichever is the latest version.
-1. You may need to install PostgreSQL as well. Use your package manager (often `apt`, `apt-get`, or `pacman`) to install 
+2. You may need to install PostgreSQL as well. Use your package manager (often `apt`, `apt-get`, or `pacman`) to install 
    the `postgresql` package.
-1. Install venv for virtual environment with `sudo apt install -y python3-venv`
-1. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
-1. Switch into to directory with `cd codethesaur.us`
-1. Set up the Python virtual environment with `python3 -m venv venv`
-1. Activate the virtual environment with `source venv/bin/activate`
-1. Install the dependencies with `pip install -r requirements.txt`
-1. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
-1. Then run the app with `python3 manage.py runserver`
-1. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-1. Press CTRL+C in the terminal to stop the server
-1. To deactivate the virtual environment, run `deactivate`
+3. Install venv for virtual environment with `sudo apt install -y python3-venv`
+4. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
+5. Switch into to directory with `cd codethesaur.us`
+6. Set up the Python virtual environment with `python3 -m venv venv`
+7. Activate the virtual environment with `source venv/bin/activate`
+8. Install the dependencies with `pip install -r requirements.txt`
+9. (first time use on new installs) Run `python manage.py migrate` to upgrade the database
+10. Then run the app with `python3 manage.py runserver`
+11. In your browser, visit [http://localhost:8000/](http://localhost:8000/) or [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+12. Press CTRL+C in the terminal to stop the server
+13. To deactivate the virtual environment, run `deactivate`
 
 ## Install Issues?
 

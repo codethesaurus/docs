@@ -2,7 +2,7 @@
 
 ### Overview
 This file includes the instructions to create a Container using the Dockerfile, as to locally run the documentation site for testing and editing.
-I also do persume you have cloned the repository and have Docker Engine set up. If you don't have Docker Engine it set up, you can learn how to do so here: [https://docs.docker.com/engine/](https://docs.docker.com/engine/).
+I also do presume you have cloned the repository and have Docker Engine set up. If you don't have Docker Engine it set up, you can learn how to do so here: [https://docs.docker.com/engine/](https://docs.docker.com/engine/).
 
 
 Now that you are all set with your docker software we can begin, setting up our container.
@@ -13,7 +13,7 @@ Now that you are all set with your docker software we can begin, setting up our 
 You will need to build and run the app inside a container. Follow these steps:
 
 Note: If you run any of these `docker` commands and it says you don't have permission, you will need to open a Windows
-Command Prompt or PowerShell session with administrator privledges, or type `sudo` before each command for Mac or Linux.
+Command Prompt or PowerShell session with administrator privileges, or type `sudo` before each command for Mac or Linux.
 
 1. Build the Docker image using the Dockerfile:
 
@@ -35,26 +35,26 @@ Command Prompt or PowerShell session with administrator privledges, or type `sud
     ```
     docker run --name ct-docs-container -ti -p 8000:8000 -v `pwd`:/code ct-docs-image /bin/bash
     ```
-1. You can check if the container is up and running by invoking:
+2. You can check if the container is up and running by invoking:
    ```
     docker container ls
    ```
    Your container should be present on the list as `ct-docs-container`.
 
-1. The Documentaion site should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
+3. The Documentation site should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
 
-1. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
+4. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
 
 
 
 ### NOTE :
-* f you already have the Codethesaurus Server Running (the main website not the documentaion site)  please do cleanly close it using the command
+* f you already have the Code Thesaurus Server Running (the main website not the documentation site)  please do cleanly close it using the command
     ```
   docker stop ct-container
   ``` 
   and then run the code-docs-container as shown above.
 
-* An alternative, if you want to have both site running you can allocate this site a different port by changing the `-p  8000:8000` tag in the above commands to a `-p 8090:8000` tag and you can access the Documentaion site at [http://localhost:8090](http://localhost:8090)
+* An alternative, if you want to have both site running you can allocate this site a different port by changing the `-p  8000:8000` tag in the above commands to a `-p 8090:8000` tag and you can access the Documentation site at [http://localhost:8090](http://localhost:8090)
 
   For example:
   ```
@@ -69,7 +69,7 @@ You can attach to the running container with:
 ```
 docker attach ct-docs-container
 ```    
-After attaching, you have to stop the documentaion development server by pressing CTRL+C.
+After attaching, you have to stop the documentation development server by pressing CTRL+C.
 
 ### Commands to Run
 

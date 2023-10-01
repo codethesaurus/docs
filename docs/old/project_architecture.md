@@ -1,6 +1,6 @@
 # Code Thesaurus Architecture
 
-The project is broken down into several parts. The idea is to make it as easy to edit by abstracting out as much of the site from the language information as possible, then also to separate out all of the language information so they're as easy to work with as possible without needing to know additional languages.
+The project is broken down into several parts. The idea is to make it as easy to edit by abstracting out as much of the site from the language information as possible, then also to separate out all the language information so they're as easy to work with as possible without needing to know additional languages.
 
 ## Basic idea
 
@@ -8,7 +8,7 @@ The main way this is broken down will be:
 
 * Website (codethesaur.us)
 * Programming language data files
-* (later) meta data for other types of comparable data
+* (later) metadata for other types of comparable data
 
 ## Website
 
@@ -29,7 +29,7 @@ The following may seem complex, but there are multiple issues that come to light
 9. Some concepts exist under different names (ex: Functions, subroutines, and methods are all the same thing)
 10. Languages have constructs that aren't built the same and should be clarified. (Ex: Arrays/lists can always be ints and start at 0, but some start at 1, or might be strings/hashes, or could literally be any other data type)
 11. It should be simple and easy to add a new language or version.
-12. The end user should have an easy to use site that's accessible.
+12. The end user should have an easy-to-use site that's accessible.
 13. Opt for accessibility and ease of use over fancy frameworks.
 
 ## Programming Language Data

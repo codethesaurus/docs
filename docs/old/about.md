@@ -8,6 +8,6 @@ The concept of Code Thesaurus was invited by Sarah Withee back in 2015. She was 
 
 Time and time again, she ended up either working in a new language at a job, staring at someone else's code, or trying to fix some issue somewhere that she knew, in concept how to fix, but just struggling digging through documentation trying to find that right solution.
 
-She searched for a long time trying to find someone that had built such a tool already. She found numerous cheat sheets, or examples of programming problems written in several languages, but not syntactical comparisons. After about a year of trying to think through the problem of "How could you compare any two languages together?" as well as "How do I build a system that is easy and encouraging to add language meta data to?", she finally started slowly working on this project.
+She searched for a long time trying to find someone that had built such a tool already. She found numerous cheat sheets, or examples of programming problems written in several languages, but not syntactical comparisons. After about a year of trying to think through the problem of "How could you compare any two languages together?" as well as "How do I build a system that is easy and encouraging to add language metadata to?", she finally started slowly working on this project.
 
 The base of the project was mostly built during Hacktoberfest 2018 and Hacktoberfest 2019 in PHP and Symfony. It was converted to Python and Django just before Hacktoberfest 2020.

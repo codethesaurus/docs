@@ -17,7 +17,7 @@ There are also some useful flags you can add to the command:
 
 ## Docker Container
 
-The second easiest way to run Code Thesaurus locally is through a Docker container.
+The second-easiest way to run Code Thesaurus locally is through a Docker container.
 
 ### Build and Run the Container
 
@@ -26,13 +26,13 @@ First, make sure that you have Docker installed and running on you local machine
 Next, you will need to build and run the app inside a container. Follow these steps:
 
 Note: If you run any of these `docker` commands and it says you don't have permission, you will need to open a Windows
-Command Prompt or PowerShell session with administrator privledges, or type `sudo` before each command for Mac or Linux.
+Command Prompt or PowerShell session with administrator privileges, or type `sudo` before each command for Mac or Linux.
 
 1. Build the Docker image using the Dockerfile:
 
    `docker build -t ct-image .`
 
-1. Then, run the Docker container by using the image that you've just created. If you want it to run in the background:
+2. Then, run the Docker container by using the image that you've just created. If you want it to run in the background:
 
    ``docker run --name ct-container -dti -p 8000:8000 -v `pwd`:/code ct-image``
 
@@ -44,15 +44,15 @@ Command Prompt or PowerShell session with administrator privledges, or type `sud
 
    ``docker run --name ct-container -ti -p 8000:8000 -v `pwd`:/code ct-image /bin/bash``
 
-1. You can check if the container is up and running by invoking:
+3. You can check if the container is up and running by invoking:
 
    `docker container ls`
 
    Your container should be present on the list as `ct-container`.
 
-1. The Django development server should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
+4. The Django development server should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
 
-1. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
+5. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
 
 ### Running Commands on a Running Container
 
