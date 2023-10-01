@@ -1,3 +1,5 @@
+# Thesaurus Editing
+
 There are numerous ways to edit Code Thesaurus depending on your skill set or time commitment!
 
 The main ways are:

@@ -1,6 +1,4 @@
-# Code Thesaurus
-
-## Installation
+# Quick Start Guide
 
 After forking the repository you can run this command to have your own instance of CodeThesaurus
 
@@ -9,8 +7,7 @@ $ docker-compose up
 ```
 Need more details? Check out the full docs under the "Installing and Running" section.
 
-
-### Developer's guide
+## Developer's guide
 The thesaurus files are the core data elements behind Code Thesaurus. They include all the information that is aggregated together to show the user as they go to compare things.
 
 For instructions on editing your CodeThesaurus instance, refer to the [Thesaurus File](../thesaurus/index.md)

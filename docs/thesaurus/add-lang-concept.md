@@ -1,4 +1,4 @@
-## Add an Existing Structure Set to a Language
+# Add an Existing Structure Set to a Language
 
 If the language you are looking at is missing a structure to it, you are welcome to go in and add it! The structures are stored in files within the `web/thesauruses/` and then the language directory and major version below that. The structure files are within that directory.
 

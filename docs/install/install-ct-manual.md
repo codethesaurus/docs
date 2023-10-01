@@ -1,4 +1,4 @@
-# Installing Code Thesaurus Manually
+# Running the Application Manually
 
 ## Manual Install
 

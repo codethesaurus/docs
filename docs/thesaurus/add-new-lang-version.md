@@ -1,4 +1,4 @@
-## Add a New Language Version
+# Add a New Language Version
 
 Adding a new version of an existing programming language is rather simple. There are a few steps involved.
 

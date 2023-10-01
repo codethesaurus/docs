@@ -1,6 +1,6 @@
-## Adding New Structures to Code Thesaurus
+# Adding New Structures to Code Thesaurus
 
-If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the [above section](#add-an-existing-structure-set-to-a-language) on how to copy over a concept if it does.
+If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the [Add a Existing Structure](../thesaurus/add-lang-concept.md) on how to copy over a concept if it does.
 
 If it needs to be added, then you will need to follow these steps.
 

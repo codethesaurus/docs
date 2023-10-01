@@ -1,3 +1,3 @@
-# Installing Documentation Manually
+# Running Documentation Manually
 
 Coming soon!

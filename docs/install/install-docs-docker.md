@@ -1,4 +1,4 @@
-# Installing Documentation with Docker
+# Running Documentation with Docker
 
 ### Overview
 This file includes the instructions to create a Container using the Dockerfile, as to locally run the documentation site for testing and editing.

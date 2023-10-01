@@ -1,4 +1,4 @@
-# Installing Code Thesaurus with Docker
+# Running the Application with Docker
 
 ## Docker Compose
 
