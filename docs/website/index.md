@@ -1,3 +1,5 @@
-# Website
+# About Code Thesaurus's Django Project
 
-TBW (to be written) information about the Django project that powers the website.
+Code Thesaurus's website is built using [Python](https://python.org/) and the [Django Project](https://djangoproject.com). 
+
+The website provides both the frontend and backend for the project. 

@@ -21,16 +21,27 @@ plugins:
   - git-revision-date
 
 nav:
-- Home: index.md
-- About/History: about.md
-- Overview: overview.md
-- Contributing: contributing.md
-- Quick Start Guide: quick_start.md
-- Installation/Running Locally: install.md
-- Website: website/index.md
-- Thesaurus Files: thesaurus/index.md
-- Project Architecture: project_architecture.md
-- FAQs: faq/index.md
-- Code of Conduct: CODE_OF_CONDUCT.md
-- Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
-- Best Practices: Best_Practices.md
+  - Home: index.md
+  - About the Project: about/index.md
+  - Contributing: contributing.md
+  - Code of Conduct: CODE_OF_CONDUCT.md
+  - Code of Conduct Reporting: CODE_OF_CONDUCT_REPORTING.md
+  - Installing and Running:
+    - Quick Start Guide: install/quick_start.md
+    - Run App with Docker: install/install-ct-docker.md
+    - Run App Manually: install/install-ct-manual.md
+    - Run Docs with Docker: install/install-docs-docker.md
+    - Run Docs Manually: install/install-docs-manual.md
+  - Website Development:
+    - About App Django Project: website/index.md
+    - Project Architecture: website/project-architecture.md
+    - Database Architecture: website/database-architecture.md
+  - Thesaurus Editing:
+    - Overview: thesaurus/index.md
+    - Best Practices: thesaurus/best-practices.md
+    - Adding a Concept in an Existing Language: thesaurus/add-lang-concept.md
+    - Adding a New Language: thesaurus/add-new-lang.md
+    - Adding a New Language Version: thesaurus/add-new-lang-version.md
+    - Adding a New Structure File: thesaurus/add-new-structure.md
+    - Contributing Changes: thesaurus/contributing.md
+  - FAQs: faq/index.md

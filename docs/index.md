@@ -1,30 +1,34 @@
-# Welcome to the Code Thesaurus docs!
+# Welcome to the Code Thesaurus documentation!
 
 ## What is Code Thesaurus?
 
-In a simple term, a polyglot developer reference tool.
+It is a polyglot developer reference tool originally created to help you compare a language you know with one you don't. The main purpose is to be a quick and easy way to help people that use a lot of programming languages and have to context switch between them. It also allows you to pick up how to use a new programming language fast without needing to read documentation.
 
-What's that? It's a way to compare a language you know with a language you don't know. The idea is rather than having to parse a ton of documentation on a language, you can compare something you don't know to something you do, which will let you quickly figure out not just what to do but help you learn it as well. It's kind of like language immersion but for programming languages.
+## tl;dr Getting Started
 
-## What is the goal of this project?
+_While we recommend reading over the docs for the part of the site you're working on, we realize many like to get started ASAP!_
 
-To literally be able to look at any two programming languages and see how their structures and usages compare. 
+1. Pull down the [main site repo](https://github.com/codethesaurus/codethesaur.us/) from GitHub.
+2. [Build the Docker container](install/install-ct-docker.md).
+3. [Run the site](install/install-ct-docker.md).
+4. The code is linked into the container, so changes take effect immediately upon saving.
+5. Find one of our [dozens of available issues](https://github.com/codethesaurus/codethesaur.us/issues), the vast majority of them [looking for help](https://github.com/codethesaurus/codethesaur.us/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
-A further down the road goal would be to be able to compare other things like database query commands, data structures, standard algorithms, and more.
+Issues almost always have enough context that you don't need to read the docs unless you need more specific information.
 
-## Who is behind this?
+If you're newer to open source, grab one of our ["Good First Issue" issues](https://github.com/codethesaurus/codethesaur.us/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
-The brain behind this is [Sarah Withee](https://twitter.com/geekygirlsarah), a polyglot developer who has come to love and appreciate technology and all aspects of it. She's come to appreciate all programming languages for both their pros and cons, and definitely believes the best programming language is the one that solves the task the best (whatever that means).
+## How do I install and run this repo?
 
-## How does this work?
-
-Feel free to see the [Architecture](project_architecture.md) section, but the goal will be to have a website that can look into language meta files, pull out the information the user is looking for, and match up structures side-by-side. 
+Check out the Installation section to get all the installation directions for the main site as well as the documentation.
 
 ## How can I help?
 
-We're still in the early stages, but some options include:
+This project values open source contributors, both to the main project and to the documentation! We'd love to have your help.
 
-* Look through the [repo](https://github.com/codethesaurus/) for [issues or bugs](https://github.com/codethesaurus/codethesaur.us/issues) 
-* Add to the [meta language files](https://github.com/codethesaurus/codethesaur.us/tree/main/web/thesauruses) to build up information about languages you know
+* Start with our [Contribution Guidelines](contributing.md)
+* Look through [the repo](https://github.com/codethesaurus/docs/issues/) for issues or bugs
+* Add any missing information on the main site
+* Correct any incorrect information on the main site or the documentation
 * Help think through the future of what Code Thesaurus could be
-* Find more developers of any experience level and background to help [contribute](https://github.com/codethesaurus/codethesaur.us/blob/main/CONTRIBUTING.md)!
+* Find more developers of any experience level and background to help contribute!
