@@ -40,4 +40,3 @@ Within this file you will need to edit the following items to make the file work
 Don't worry if you can't think about all concepts for all languages because as more languages are added people will add to this file, too.
 
 If you are adding a concept to all of Code Thesaurus, please make a pull request for this _separately_ from a language's implementation of this. This is to make sure the file can be reviewed first before languages try to implement the changes.
-
