@@ -44,4 +44,5 @@ nav:
     - Adding a New Language Version: thesaurus/add-new-lang-version.md
     - Adding a New Structure File: thesaurus/add-new-structure.md
     - Contributing Changes: thesaurus/contributing.md
+    - Testing and Validating: thesaurus/testing.md
   - FAQs: faq/index.md

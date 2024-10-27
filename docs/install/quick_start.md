@@ -12,12 +12,14 @@ The thesaurus files are the core data elements behind Code Thesaurus. They inclu
 
 For instructions on editing your CodeThesaurus instance, refer to the [Thesaurus File](../thesaurus/index.md)
 
+## Testing and Validating
+
+Head to the [Testing and Validating](../thesaurus/testing.md) page to see the ways to run unit tests and language file validators.
 
 ## Code Organization
-- web/thesauruses - all the datas of programming language
+- web/thesauruses - all the programming language data files
 - web/views - views for rendering web pages
-- web/templates - all the template used in the website
-
+- web/templates - all the templates used on the website
 
 ## Architecture
 There are three main part to our architecture
