@@ -21,7 +21,7 @@ The second-easiest way to run Code Thesaurus locally is through a Docker contain
 
 ### Build and Run the Container
 
-First, make sure that you have Docker installed and running on you local machine. If you don't, you can download it here: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop).
+First, make sure that you have Docker installed and running on your local machine. If you don't, you can download it here: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop).
 
 Next, you will need to build and run the app inside a container. Follow these steps:
 

@@ -1,12 +1,12 @@
 # Adding New Structures to Code Thesaurus
 
-If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the [Add a Existing Structure](../thesaurus/add-lang-concept.md) on how to copy over a concept if it does.
+If a structure (like string manipulation, arrays, functions, etc.) doesn't exist for any language yet, make sure the structure file exists in the `web/thesauruses/_meta` directory first. See the [Add an Existing Structure](../thesaurus/add-lang-concept.md) on how to copy over a concept if it does.
 
 If it needs to be added, then you will need to follow these steps.
 
 First, open up `web/thesauruses/meta_info.json`. In the second half of the file, there's a group called `structures`. Add your concept to that list. Make sure this concept is written to be inclusive for any language. (For example, things could be called "functions" but in other languages are "methods" or "subroutines" depending on how they work.) Then give the file a name that ends in JSON. You will create this file in the next step.
 
-Within the `web/thesauruses/_meta` directory, create the new file you just named in the `meta_data.json` file. The file will need to have this basic structure:
+Within the `web/thesauruses/_meta` directory, create the new file you just named in the `meta_info.json` file. The file will need to have this basic structure:
 
 ```
 {

@@ -22,7 +22,7 @@ Yes! The Code Thesaurus code and documentation projects are both enabled for Hac
 
 This project values open source contributors, both to the main project and to the documentation! We'd love to have your help.
 
-* Start with our [Contribution Guidelines](#)
+* Start with our [Contribution Guidelines](https://docs.codethesaur.us/contributing/)
 * Look through [the repo](https://github.com/codethesaurus/docs/issues/) for issues or bugs 
 * Add any missing information on the main site
 * Correct any incorrect information on the main site or the documentation

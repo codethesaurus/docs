@@ -48,7 +48,7 @@ Command Prompt or PowerShell session with administrator privileges, or type `sud
 
 
 ### NOTE :
-* f you already have the Code Thesaurus Server Running (the main website not the documentation site)  please do cleanly close it using the command
+* If you already have the Code Thesaurus Server Running (the main website not the documentation site) please do cleanly close it using the command
     ```
   docker stop ct-container
   ``` 
