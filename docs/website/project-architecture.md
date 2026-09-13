@@ -12,7 +12,9 @@ The main way this is broken down will be:
 
 ## Website
 
-(info about site goes here)
+The website is a Django application built with [Python](https://python.org/) and the [Django Project](https://djangoproject.com), and it provides both the frontend and backend for the project. It reads the programming language data files and renders the concepts as side-by-side comparisons for visitors. Because every concept has a consistent ID across all languages, the site can match up the same concept across different languages to build those comparisons.
+
+See the [Django project overview](../website/index.md) for more.
 
 ## Considerations
 

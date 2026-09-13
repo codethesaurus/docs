@@ -2,7 +2,7 @@
 
 ## What is Code Thesaurus?
 
-It is a polyglot developer reference tool originally created to help you compare a language you know with one you don't. The main purpose is to be a quick and easy way to help people that use a lot of programming languages and have to context switch between them. It also allows you to pick up how to use a new programming language fast without needing to read documentation.
+Code Thesaurus is a polyglot developer reference tool that lets you compare programming language structures side by side. It's a quick reference for developers who use a lot of programming languages and have to context switch between them, and it helps you pick up a new language faster without reading its documentation. Learn more on the [About the project](about/index.md) page.
 
 ## tl;dr Getting Started
 
