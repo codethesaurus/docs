@@ -1,6 +1,6 @@
 # Project Architecture
 
-The project is broken down into several parts. The idea is to make it as easy to edit by abstracting out as much of the site from the language information as possible, then also to separate out all the language information so they're as easy to work with as possible without needing to know additional languages.
+The project is broken down into several parts. The goal is to make it easy to edit by abstracting as much of the site as possible away from the language information, and to keep each language's information separate so contributors can work with it without needing to know other languages.
 
 ## Basic idea
 
@@ -23,9 +23,9 @@ The following may seem complex, but there are multiple issues that come to light
 1. Some languages are easy to compare (like C++, Java, C#) and others that aren't (like Haskell, Perl, APL, Whitespace, LOLCODE)
 2. Some languages should be compared against their versions, especially for those wanting to upgrade their code (ex: Python 2 vs Python 3, PHP 5 vs 7)
 3. Some languages have separate variations of the same thing (ex: ANSI C vs Microsoft C, .Net vs .Net Core languages, C64 BASIC vs QBASIC vs Visual Basic)
-4. Incomplete language should still be searchable. (If something isn't implemented in a JSON file, the concept may not exist but also just might not have been added yet. This should be distinguished somehow.)
+4. Incomplete languages should still be searchable. (If a concept isn't defined in a JSON file, that could mean it doesn't exist in the language or that it just hasn't been added yet. This should be distinguished somehow.)
 5. Data files should be easy to contribute to but powerful enough to fully describe language concepts/structures
-6. The project should be as easy to contribute to if you have one month of programming experience or 20 years or programming experience.
+6. The project should be as easy to contribute to with one month of programming experience as with 20 years of programming experience.
 7. Someone who wants to contribute to one language shouldn't be put off by having to filter through other languages.
 8. Some languages are compiled, some are interpreted. Some are designed for desktop/mobile apps and some are designed to run within browsers, are embedded, or have other constraints. These should be accounted for when comparing languages.
 9. Some concepts exist under different names (ex: Functions, subroutines, and methods are all the same thing)
@@ -48,17 +48,17 @@ Every programming language will be broken down into several parts, with data sto
                 * name (the concept/structure)
                 * code (example of how it's written in code)
                 * comment (explanation of parts of the code)
-                * doesn't exist flag (for something that doesn't exist in a language
+                * doesn't exist flag (for something that doesn't exist in a language)
 
-I haven't determined yet if it makes more sense to have a repo for language data vs individual repos for individual languages. Either way, something like a CI tool and/or Git Submodules can combine them together.
+It's not yet decided whether it makes more sense to have a single repo for all language data or individual repos for individual languages. Either way, something like a CI tool and/or Git Submodules could combine them together.
 
 ## Why JSON?
 
-I wanted a combination of easy to read for a human, easy to parse for a computer, and not a pain in the butt to deal with formatting of strings, code blobs, and more things. YAML would be great except for the formatting, XML is just verbose, and some form of custom file would require training. There's other serializable formats too, but JSON seemed easiest.
+The goal was a format that's easy to read for a human, easy to parse for a computer, and not painful to use when formatting strings, code blocks, and other content. YAML would be great except for its formatting constraints, XML is just verbose, and a custom file format would require training. There are other serializable formats, but JSON seemed the easiest.
 
 ## What Should Be Included?
 
-I'd love everything to be included. This can be:
+The goal is to include as much as possible, including:
 
 * The most common languages (like Java, C, Python, C++, C#, VB.Net, Ruby, JavaScript, PHP, Go, Swift)
 * Languages not as common anymore (like Pascal, Delphi, Objective-C, Perl)
@@ -68,4 +68,4 @@ I'd love everything to be included. This can be:
 
 ## Design Updates
 
-It's still the early stages, and things can change. I'll also probably forget things somewhere in here. Reach out if you're interested in helping make further improvements or if there's some piece I've forgotten.
+The project is still in its early stages and things can change. If you're interested in helping make improvements, or if you notice something that's missing, reach out!

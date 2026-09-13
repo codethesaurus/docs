@@ -14,7 +14,7 @@ The base of the project was mostly built during Hacktoberfest 2018 and Hacktober
 
 Since then, it's had 110+ contributors add 340+ pull requests to the main code base and 20+ to the documentation!
 
-# Future
+## Future
 
 Sarah envisions Code Thesaurus to be an all-in-one reference tool for any developer to use to quickly look up or compare programming language information they don't know. The hope is that as many programming languages can be added as possible, and to have as many concepts covered as possible.
 
