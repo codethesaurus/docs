@@ -16,9 +16,10 @@ These are the best practices for working within Code Thesaurus.
 
 ## Concept Metadata
 
-7. For each concept in a file, you can have `code`, `code + comment`, `not-implemented`, or `not-implemented + comment`. Other combinations are not valid and might result in errors when the build process checks them over.
+7. For each concept in a file, you can have `code`, `code + comment`, `not-implemented`, or `not-implemented + comment`. The optional `name` field is also allowed. Other combinations are not valid and might result in errors when the build process checks them over.
 8. If a concept doesn't exist in a language, mark it with `"not-implemented": true` and don't add equivalent code to make it happen. If a language doesn't have the functionality, don't write an algorithm to add it.
+9. In language data files, concepts live under a `concepts` object. A top-level `categories` object belongs in the `_meta` structure files only and is deprecated in language data files, so don't copy it over when generating a structure file.
 
 ## Keep the Reader in Mind
 
-9. Assume anyone reading it might be a beginner. What's "easy" or "obvious" to you may not be to someone else. This is a learning tool and new learners might be using it.
+10. Assume anyone reading it might be a beginner. What's "easy" or "obvious" to you may not be to someone else. This is a learning tool and new learners might be using it.

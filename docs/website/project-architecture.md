@@ -36,21 +36,23 @@ The following may seem complex, but there are multiple issues that come to light
 
 ## Programming Language Data
 
-Every programming language will be broken down into several parts, with data stored in JSON files:
+The thesaurus data is stored in JSON files inside `web/thesauruses/`, broken down into several parts:
 
-* Languages available (JSON file listing other languages)
-* Language name (directory)
-    * Version number (directory ex: Java might be "8, 9, 10" while C++ could be "C++11, C++14, C++17" while Python could be "2.6, 2.7, 3.5")
-        * Category type (JSON file; things like data types, functions, strings, file I/O, memory operations, DOM navigation, and more)
-            * Meta info (language name, version number, release date, language types/categories, etc.)
-            * Sub categories (ex: void functions, functions with limited parameters, functions with variable parameters, anonymous functions, etc.)
-                * ID (something to standardize matching things up)
-                * name (the concept/structure)
-                * code (example of how it's written in code)
-                * comment (explanation of parts of the code)
-                * doesn't exist flag (for something that doesn't exist in a language)
+* `meta_info.json` - lists the categories (like `langs` and `databases`), every language or database the site knows about, and which structures belong to each category
+* `_meta/` directory - one JSON file per structure that defines the categories and concept IDs shared across every language
+* Category directory (like `langs/` for programming languages or `databases/`)
+    * Language or database name (directory, like `python` or `postgresql`)
+        * Version number (directory, like `3` or `C++17`)
+            * Structure file (JSON, one per structure, like `functions.json`)
+                * Meta info (language name, version number, structure)
+                * Concepts
+                    * ID (something to standardize matching things up)
+                    * name (the concept/structure)
+                    * code (example of how it's written in code)
+                    * comment (explanation of parts of the code)
+                    * not-implemented flag (for something that doesn't exist in a language)
 
-It's not yet decided whether it makes more sense to have a single repo for all language data or individual repos for individual languages. Either way, something like a CI tool and/or Git Submodules could combine them together.
+All of the language data currently lives in a single repository alongside the website code. A CI tool (GitHub Actions) validates the data files and runs the unit tests on every pull request, which keeps contributions consistent.
 
 ## Why JSON?
 

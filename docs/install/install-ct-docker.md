@@ -81,4 +81,4 @@ You can quit the running container a couple of different ways:
 If you have issues with trying to run Code Thesaurus, feel free to reach out to us by the methods on the docs home page.
 
 If you spot errors and want to help correct them, you are welcome to file [issues](https://github.com/codethesaurus/docs/issues)
-or [edit this page](https://github.com/codethesaurus/docs/blob/main/docs/install.md)!
+or [edit this page](https://github.com/codethesaurus/docs/blob/main/docs/install/install-ct-docker.md)!

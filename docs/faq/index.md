@@ -14,7 +14,7 @@ Yes! Both the main site and this documentation are open source. Both repositorie
 
 ## What technologies does Code Thesaurus use?
 
-The main site is a [Django](https://djangoproject.com) project built with [Python](https://python.org/). It stores its language data in JSON files and uses PostgreSQL as its database. This documentation site is built with [MkDocs](https://www.mkdocs.org/).
+The main site is a [Django](https://djangoproject.com) project built with [Python](https://python.org/). It stores its language data in JSON files rather than in a database, and it uses SQLite by default locally with PostgreSQL in production. This documentation site is built with [MkDocs](https://www.mkdocs.org/).
 
 ## Do I need to know multiple programming languages to contribute?
 

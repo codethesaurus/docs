@@ -2,7 +2,7 @@
 
 ## Manual Install
 
-Code Thesaurus is tested to run on at least Python 3.10, though it may work in earlier 3.x versions. It will not run in
+Code Thesaurus is tested to run on at least Python 3.11, though it may work in earlier 3.x versions. It will not run in
 Python 2.x.
 
 If you run `python --version` and it shows Python 2.x but you know you have Python 3.x installed, you may need to
@@ -47,8 +47,7 @@ search online for instructions on using your distribution's package manager.
 
 1. Check to see if the system default `python --version` works. If the returned text is not python 3.x then try using
    `python3 --version`. If both `python` and `python3` are installed, use whichever is the latest version.
-2. You may need to install PostgreSQL as well. Use your package manager (often `apt`, `apt-get`, or `pacman`) to install
-   the `postgresql` package.
+2. You may need to install PostgreSQL if you plan to run the app with a PostgreSQL database (the production setup on Heroku uses PostgreSQL). The local development server works fine with SQLite by default — no extra database setup is needed unless you want to test against PostgreSQL.
 3. Install venv for virtual environment with `sudo apt install -y python3-venv`
 4. Clone the project with `git clone https://github.com/codethesaurus/codethesaur.us.git`
 5. Switch into to directory with `cd codethesaur.us`
@@ -65,4 +64,4 @@ search online for instructions on using your distribution's package manager.
 If you have issues with trying to run Code Thesaurus, feel free to reach out to us by the methods on the docs home page.
 
 If you spot errors and want to help correct them, you are welcome to file [issues](https://github.com/codethesaurus/docs/issues)
-or [edit this page](https://github.com/codethesaurus/docs/blob/main/docs/install.md)!
+or [edit this page](https://github.com/codethesaurus/docs/blob/main/docs/install/install-ct-manual.md)!
