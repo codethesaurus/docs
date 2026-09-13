@@ -91,6 +91,16 @@ Think you can tackle an issue? Great!
 
 1. [Create a new pull request](https://github.com/codethesaurus/codethesaur.us/compare). The template should walk you through all the information you need to include. If you don't fill it out, the issue may be closed for being invalid or spam.
 
+### Use of AI Tools
+
+We're happy for you to use AI tools to help you contribute — a lot of our contributors do, and they can be a great way to speed up work or learn something new. But AI-generated changes have to meet the same bar as any other contribution:
+
+- **Follow the project's conventions and docs** — the structure, naming, and style, including the thesaurus data rules. Code examples must genuinely work in that language; don't let an AI invent syntax or fake a feature that should be marked `"not-implemented": true`.
+- **Follow the PR template** — including the "AI bots used" section, telling us what you used and how. (Please actually review the changes before submitting.)
+- **Be tested** — run the unit tests and the data-validation commands, and make sure the GitHub Actions checks pass.
+
+Low-effort AI pull requests — unchecked dumps of generated code that ignore the conventions, skip the template, or aren't tested — will be closed or marked as spam. If we misjudge one of yours, reach out and we'll take another look.
+
 ### Review and Merge
 
 1. GitHub Actions will run to test the changes and to validate data files. If you have contributed before, it should spin up a review deploy automatically.
