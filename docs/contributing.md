@@ -77,15 +77,36 @@ Please make your issue as detailed as possible! Add in the page or URL where it 
 
 Think you can tackle an issue? Great! 
 
-1. First, fork the repo so you have your own copy of it
-2. Create a new branch. You can name it whatever you want, but I'd recommend something descriptive, like `issue-123-fix-string-exception`
-3. Make your changes! I suggest committing early and often.
-4. Make sure you test the changes on your own computer. See the Installation section of the docs for directions on how to run it.
-5. If you test the changes and they work reliably, then [create a new pull request](https://github.com/codethesaurus/codethesaur.us/compare). The template should walk you through all the information you need to include. If you don't fill it out, the issue may be closed for being invalid or spam.
-6. GitHub Actions will run to test the changes and to validate data files. If you have contributed before, it should spin up a review deploy automatically.
-7. If any of the GitHub Actions fail, click on the details link next to it to see what went wrong. You will have to make changes for it to pass before your code can get merged in.
-8. I'll review it and leave any comments for things that may need to change. Any comments that are made aren't because your code is bad but more information about how this code may work with other parts of the project or ways the user might interact with it. Don't take it as a fault but instead as considerations to help you improve what you do have.
-9. Finally, we'll merge it in! Changes usually go into effect 1-2 minutes after merging.
+### Prepare Your Fork
+
+1. Fork the repo so you have your own copy of it.
+2. Create a new branch. You can name it whatever you want, but I'd recommend something descriptive, like `issue-123-fix-string-exception`.
+
+### Make Your Changes
+
+1. Make your changes! I suggest committing early and often.
+2. Make sure you test the changes on your own computer. See the Installation section of the docs for directions on how to run it. Once they work reliably, you're ready to open a pull request.
+
+### Open a Pull Request
+
+1. [Create a new pull request](https://github.com/codethesaurus/codethesaur.us/compare). The template should walk you through all the information you need to include. If you don't fill it out, the issue may be closed for being invalid or spam.
+
+### Use of AI Tools
+
+We're happy for you to use AI tools to help you contribute — a lot of our contributors do, and they can be a great way to speed up work or learn something new. But AI-generated changes have to meet the same bar as any other contribution:
+
+- **Follow the project's conventions and docs** — the structure, naming, and style, including the thesaurus data rules. Code examples must genuinely work in that language; don't let an AI invent syntax or fake a feature that should be marked `"not-implemented": true`.
+- **Follow the PR template** — including the "AI bots used" section, telling us what you used and how. (Please actually review the changes before submitting.)
+- **Be tested** — run the unit tests and the data-validation commands, and make sure the GitHub Actions checks pass.
+
+Low-effort AI pull requests — unchecked dumps of generated code that ignore the conventions, skip the template, or aren't tested — will be closed or marked as spam. If we misjudge one of yours, reach out and we'll take another look.
+
+### Review and Merge
+
+1. GitHub Actions will run to test the changes and to validate data files. If you have contributed before, it should spin up a review deploy automatically.
+2. If any of the GitHub Actions fail, click on the details link next to it to see what went wrong. You will have to make changes for it to pass before your code can get merged in.
+3. I'll review it and leave any comments for things that may need to change. Any comments that are made aren't because your code is bad but more information about how this code may work with other parts of the project or ways the user might interact with it. Don't take it as a fault but instead as considerations to help you improve what you do have.
+4. Finally, we'll merge it in! Changes usually go into effect 1-2 minutes after merging.
 
 Note: Due to the prolific spam at past Hacktoberfests, your PR may get marked as invalid or spam if it appears not to follow directions or appears to just be trying to get easy PRs for the swag. If it's mistakenly marked as invalid/spam, please reach out so I can correct it.
 

@@ -22,7 +22,7 @@ Command Prompt or PowerShell session with administrator privileges, or type `sud
     ```
 
 
-1. Then, run the Docker container by using the image that you've just created. If you want it to run in the background:
+2. Then, run the Docker container by using the image that you've just created. If you want it to run in the background:
 
     ```
     docker run --name ct-docs-container -dti -p 8000:8000 -v `pwd`:/code ct-docs-image
@@ -35,20 +35,20 @@ Command Prompt or PowerShell session with administrator privileges, or type `sud
     ```
     docker run --name ct-docs-container -ti -p 8000:8000 -v `pwd`:/code ct-docs-image /bin/bash
     ```
-2. You can check if the container is up and running by invoking:
+3. You can check if the container is up and running by invoking:
    ```
     docker container ls
    ```
    Your container should be present on the list as `ct-docs-container`.
 
-3. The Documentation site should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
+4. The Documentation site should now be running. You can visit [http://localhost:8000](http://localhost:8000) to use it.
 
-4. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
+5. To edit any code or language files, do it on your local machine. Your local directory is mounted to the container so all changes will automatically be available to the container.
 
 
 
 ### NOTE :
-* f you already have the Code Thesaurus Server Running (the main website not the documentation site)  please do cleanly close it using the command
+* If you already have the Code Thesaurus Server Running (the main website not the documentation site) please do cleanly close it using the command
     ```
   docker stop ct-container
   ``` 

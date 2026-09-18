@@ -29,7 +29,7 @@ The working group will immediately meet to review the incident and determine:
 
 If this is determined to be an ongoing incident or a threat to physical safety, the working groups' immediate priority will be to protect everyone involved. This means we may delay an "official" response until we believe that the situation has ended and that everyone is physically safe.
 
-Once the working group has a complete account of the events they will make a decision as to how to response. Responses may include:
+Once the working group has a complete account of the events they will make a decision as to how to respond. Responses may include:
 
 * Nothing (if we determine no violation occurred).
 * A private reprimand from the working group to the individual(s) involved.

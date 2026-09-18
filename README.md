@@ -2,7 +2,7 @@
 
 ## What is Code Thesaurus?
 
-It is a polyglot developer reference tool originally created to help you compare a language you know with one you don't. The main purpose is to be a quick and easy reference tool to help people that use a lot of programming languages and have to context switch a lot. It also allows you to pick up how to use a new programming language fast without needing to read documentation.
+Code Thesaurus is a polyglot developer reference tool that shows programming language structures side by side, so you can compare how a concept works in a language you know with one you don't. It's built for developers who switch between languages often and want a quick reference without digging through full documentation.
 
 ## What is this repository?
 
@@ -22,7 +22,7 @@ Yes! The Code Thesaurus code and documentation projects are both enabled for Hac
 
 This project values open source contributors, both to the main project and to the documentation! We'd love to have your help.
 
-* Start with our [Contribution Guidelines](#)
+* Start with our [Contribution Guidelines](https://docs.codethesaur.us/contributing/)
 * Look through [the repo](https://github.com/codethesaurus/docs/issues/) for issues or bugs 
 * Add any missing information on the main site
 * Correct any incorrect information on the main site or the documentation

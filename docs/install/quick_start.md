@@ -3,7 +3,7 @@
 After forking the repository you can run this command to have your own instance of CodeThesaurus
 
 ```bash
-$ docker-compose up
+docker-compose up
 ```
 Need more details? Check out the full docs under the "Installing and Running" section.
 
